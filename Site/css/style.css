@@ -1,0 +1,93 @@
+.container{
+	margin-top:10px;
+}
+
+#menu-tile, #category-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom:15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+#menu-tile{
+	background: url("https://via.placeholder.com/370x246/.png/000000/ffffff?text=menu+tile") no-repeat;
+	background-position: center;
+}
+#category-tile{
+	background: url("https://via.placeholder.com/370x246/.png/000000/ffffff?text=category+tile") no-repeat;
+	background-position: center;
+}
+#menu-tile span, #category-tile span, #map-tile span{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+}
+#menu-tile:hover, #category-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+.panel-footer{
+	margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    color: white;
+    border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours > span, #address > span, #testimonials > span{
+	font-size: 1.3em
+}
+#address p {
+	color: #5eff00;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials p{
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+@media (min-width: 1200px){
+	.jumbotron{
+		background: url("https://via.placeholder.com/1200x600/.png/000000/ffffff?text=with+1200+vala+image") no-repeat;
+		height: 600px;
+		box-shadow: 0 0 5px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+	background: url("https://via.placeholder.com/992x550/.png/000000/ffffff?text=with+992x550+vala+image") no-repeat;
+	height: 550px;
+	box-shadow: 0 0 5px #3f0c1f;
+	border: 2px solid #3f0c1f;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+	background: url("https://via.placeholder.com/768x430/.png/000000/ffffff?text=with+768x430+vala+image") no-repeat;
+	height: 430px;
+	box-shadow: 0 0 5px #3f0c1f;
+	border: 2px solid #3f0c1f;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.jumbotron{
+	background: url("https://via.placeholder.com/576x430/.png/000000/ffffff?text=with+576x390+vala+image") no-repeat;
+	height: 390px;
+	box-shadow: 0 0 5px #3f0c1f;
+	border: 2px solid #3f0c1f;
+	}
+}
